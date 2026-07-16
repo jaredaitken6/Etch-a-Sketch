@@ -27,4 +27,8 @@
     flex-grow: 1;
 }
 
+.toggle-color {
+    background-color: black;
+}
+
 

@@ -1,7 +1,9 @@
 let gridContainer = document.querySelector('.grid-container');
 let gridRow;
 let squareDiv;
+let gridSquare = document.querySelector('.grid-square');
 
+// create grid
 for (let index = 0; index < 4; index++) {
     gridRow = document.createElement('div');
     gridRow.classList.add('grid-row');
@@ -15,6 +17,9 @@ for (let index = 0; index < 4; index++) {
 
 }
 
+console.log(gridSquare); // is null
 
-console.log(gridContainer);
+// gridSquare.addEventListener('mouseenter', () => {
+//     gridSquare.classList.toggle('toggle-color'); 
+// });
     
