@@ -9,8 +9,6 @@
     background-color: rgb(235, 224, 224);
     height: 100vh;
     flex-wrap: wrap;
-    
-    
 }
 
 .grid-row {
@@ -29,6 +27,14 @@
 
 .toggle-color {
     background-color: black;
+}
+
+/* menu */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
 
 
